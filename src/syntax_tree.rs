@@ -7,7 +7,7 @@ static mut LAST_ID: usize = 0;
 #[derive(Clone, Debug, PartialEq)]
 pub struct SyntaxTree<T> {
 	id: ID,
-	value: T,
+	value: T, 
 	children: Vec<SyntaxTree<T>>,
 }
 
